@@ -1,0 +1,22 @@
+export const SIGRID_GIFS = [
+    "https://c.tenor.com/uY5TQj91llQAAAAC/sigrid-nsfs.gif",
+    "https://c.tenor.com/UHPvf8DEBaIAAAAC/sigrid-plot-twist.gif",
+    "https://66.media.tumblr.com/7821031860ba7a340046a7eb7375d1da/9aaa36d884ea45da-8b/s400x600/d66021cd2531d85fbcdb0b199d2c64cef08b2e0d.gif",
+    "https://thumbs.gfycat.com/IncompatibleUnderstatedGrosbeak-size_restricted.gif",
+    "https://c.tenor.com/73h7tDl3m_4AAAAC/sigrid-surprised.gif",
+    "https://c.tenor.com/8ZTwz3p3OwYAAAAd/sigrid-cute.gif",
+    "https://64.media.tumblr.com/28d1e0e50c276c62b4e40e69e3a7350f/tumblr_oswxcgdCwT1sh985yo3_540.gifv",
+    "https://64.media.tumblr.com/85fc39b80dd431d790f9ce5fd2a0656c/tumblr_oswxcgdCwT1sh985yo2_540.gifv",
+    "https://blog.kakaocdn.net/dn/JVebd/btqvDkmZtf0/9ourHak9hzj30pdJzjNf2K/img.gif",
+    "https://c.tenor.com/jqRSMC0ec6sAAAAC/sigrid-dance.gif",
+    "https://64.media.tumblr.com/823351148e07be6a590796200353e458/tumblr_pndxxgChsG1y7vj61o2_400.gifv",
+    "https://media4.giphy.com/media/xtp2mfw9Pq99hx3gjA/giphy.gif",
+    "https://media3.giphy.com/media/9u1dNP5uqNcb2uJxdd/giphy.gif",
+    "https://media4.giphy.com/media/1zR9HPZQS4bvpzKKrN/giphy.gif?cid=6c09b95281c16bf423f12f9225c6ecd5a35c85070c9b338c&rid=giphy.gif&ct=g",
+    "https://media4.giphy.com/media/xFoQRFSzxhfOo8uJMT/giphy.gif?cid=6c09b952643bff5472b9a7b6e99958fe9db929403d7a9ae2&rid=giphy.gif&ct=g",
+    "https://c.tenor.com/ahn1CHNNSxQAAAAC/sigrid-it-could-never-be-us.gif",
+    "https://mtv.mtvnimages.com/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2018/05/sigrid-gif-1526603483.gif?quality=.8&height=232&width=632",
+    "https://c.tenor.com/-cupxKl2c_YAAAAC/sigrid-youre-getting-pushed-out-of-my-priority.gif",
+    "https://c.tenor.com/_3o1oxx42_oAAAAC/sigrid-the-best-ive-ever-had.gif",
+    "https://c.tenor.com/sfyR6NOyi64AAAAC/sigrid-you-speak-to-me-like-im-a-child.gif"
+]
