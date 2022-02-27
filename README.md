@@ -1,11 +1,7 @@
-# buildspace Solana GIF Portal Project
+# Sigrid Raabe= GIF Portal Project in Solana Network
 
 ### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
-
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+This repository is to build Sigrid Raabe's GIF collection stored in Solana Network. I have been currently testing at Solana Devnet.
 
 ### **What is the .vscode Folder?**
 If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
