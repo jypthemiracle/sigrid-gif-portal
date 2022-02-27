@@ -49,9 +49,10 @@ export const RenderConnectedContainer = ({
         {/* pre-hardcoded gifs */}
         <div className="gif-grid">
           {/* We use index as the key instead, also, the src is now item.gifLink */}
-          {gifList.map((gif) => (
-            <div className="gif-item" key={gif}>
-              <img src={gif} alt={gif}></img>
+          {gifList.map((gifLink) => (
+            <div className="gif-item" key={gifLink}>
+              {console.log("&&&&&", gifLink)}
+              <img src={gifLink} alt={gifLink}></img>
             </div>
           ))}
         </div>

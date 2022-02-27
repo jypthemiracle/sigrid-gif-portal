@@ -44,12 +44,12 @@ const App = () => {
     return () => window.removeEventListener("load", onLoad);
   }, []);
 
-  // useEffect(() => {
-  //   if (walletAddress) {
-  //     console.log('Fetching GIF list...');
-  //     // getGifList(programID, baseAccount, setGifList);
-  //   }
-  // }, [walletAddress]);
+  useEffect(() => {
+    if (walletAddress) {
+      console.log('Fetching GIF list...');
+      // getGifList(programID, baseAccount, setGifList);
+    }
+  }, [walletAddress]);
 
   return (
     <div className="App">
@@ -61,7 +61,7 @@ const App = () => {
               The GIF collection of Sigrid Raabe in Solana Blockchain ✨
             </p>
             {/* Render your connect to wallet button right here */}
-            {!walletAddress && renderNotConnectedContainer()}
+            {!walletAddress && renderNotConnectedContainer(setWalletAddress)}
             {walletAddress && <RenderConnectedContainer inputValue={inputValue} setInputValue={setInputValue} gifList={gifList} setGifList={setGifList} programID={programID} baseAccount={baseAccount}/>}
           </div>
           <div className="footer-container">

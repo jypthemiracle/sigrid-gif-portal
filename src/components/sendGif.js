@@ -30,7 +30,7 @@ export const sendGif = async (
     });
     console.log("GIF successfully sent to program", inputValue);
 
-    await getGifList();
+    await getGifList(programID, baseAccount, setGifList);
   } catch (error) {
     console.log("Error sending GIF:", error);
   }
