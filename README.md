@@ -1,4 +1,4 @@
-# Sigrid Raabe= GIF Portal Project in Solana Network
+# Sigrid Raabe's GIF Portal Project in Solana Network
 
 ### **Welcome 👋**
 This repository is to build Sigrid Raabe's GIF collection stored in Solana Network. I have been currently testing at Solana Devnet.
