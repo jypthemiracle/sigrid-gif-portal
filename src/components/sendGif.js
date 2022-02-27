@@ -3,6 +3,7 @@ import { getProvider } from "./getProvider";
 import { Program, Provider, web3 } from "@project-serum/anchor";
 import { SystemProgram } from "@solana/web3.js";
 import { getGifList } from "./getGifList";
+import { handleChanged } from "./handleChanged";
 
 export const sendGif = async (
   inputValue,
@@ -31,6 +32,7 @@ export const sendGif = async (
     console.log("GIF successfully sent to program", inputValue);
 
     await getGifList(programID, baseAccount, setGifList);
+    handleChanged();
   } catch (error) {
     console.log("Error sending GIF:", error);
   }
