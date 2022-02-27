@@ -14,8 +14,8 @@ export const SIGRID_GIFS = [
     // "https://media3.giphy.com/media/9u1dNP5uqNcb2uJxdd/giphy.gif",
     // "https://media4.giphy.com/media/1zR9HPZQS4bvpzKKrN/giphy.gif?cid=6c09b95281c16bf423f12f9225c6ecd5a35c85070c9b338c&rid=giphy.gif&ct=g",
     // "https://media4.giphy.com/media/xFoQRFSzxhfOo8uJMT/giphy.gif?cid=6c09b952643bff5472b9a7b6e99958fe9db929403d7a9ae2&rid=giphy.gif&ct=g",
-    "https://c.tenor.com/ahn1CHNNSxQAAAAC/sigrid-it-could-never-be-us.gif",
-    "https://mtv.mtvnimages.com/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2018/05/sigrid-gif-1526603483.gif?quality=.8&height=232&width=632",
+    // "https://c.tenor.com/ahn1CHNNSxQAAAAC/sigrid-it-could-never-be-us.gif",
+    // "https://mtv.mtvnimages.com/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2018/05/sigrid-gif-1526603483.gif?quality=.8&height=232&width=632",
     "https://c.tenor.com/-cupxKl2c_YAAAAC/sigrid-youre-getting-pushed-out-of-my-priority.gif",
     "https://c.tenor.com/_3o1oxx42_oAAAAC/sigrid-the-best-ive-ever-had.gif",
     // "https://c.tenor.com/sfyR6NOyi64AAAAC/sigrid-you-speak-to-me-like-im-a-child.gif"
