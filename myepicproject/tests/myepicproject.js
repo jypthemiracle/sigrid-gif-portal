@@ -26,14 +26,19 @@ const main = async() => {
   console.log('👀 GIF Count', account.totalGifs.toString())
 
   // call add_gif function of Rust in addGif of JavaScript
-  await program.rpc.addGif({
+  await program.rpc.addGif("https://64.media.tumblr.com/f26deaa333ebc23911169d6dcb2e9d32/6307ee9ae8a548fc-68/s500x750/9efd7adfef23559b7f3c46f70ab460fb01cc5cef.gifv", {
       accounts: {
           baseAccount: baseAccount.publicKey,
+          user: provider.wallet.publicKey,
       }
   })
 
+  // Call the account.
   account = await program.account.baseAccount.fetch(baseAccount.publicKey);
   console.log('👀 GIF Count', account.totalGifs.toString())
+
+  // Access gif_list on the account!
+  console.log('👀 GIF List', account.gifList);
 }
 
 const runMain = async () => {
