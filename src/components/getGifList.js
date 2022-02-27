@@ -11,7 +11,14 @@ export const getGifList = async (programID, baseAccount, setGifList) => {
         const account = await program.account.baseAccount.fetch(baseAccount.publicKey);
 
         console.log("Got the Account", account);
-        setGifList([...SIGRID_GIFS, account.gifList]);
+        console.log("*****", account.gifList)
+        let newList = account.gifList.reduce((acc, cur, idx) => {
+            console.log("cur", cur);
+            acc.push(cur["gifLink"]);
+            return acc;
+        }, SIGRID_GIFS);
+        console.log("NEWLIST", newList);
+        setGifList(newList);
     } catch (error) {
         alert('There is an encountered error', error);
         console.log(error);
