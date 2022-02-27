@@ -24,6 +24,16 @@ const main = async() => {
   console.log("📝 Your transaction signature", tx);
   let account = await program.account.baseAccount.fetch(baseAccount.publicKey);
   console.log('👀 GIF Count', account.totalGifs.toString())
+
+  // call add_gif function of Rust in addGif of JavaScript
+  await program.rpc.addGif({
+      accounts: {
+          baseAccount: baseAccount.publicKey,
+      }
+  })
+
+  account = await program.account.baseAccount.fetch(baseAccount.publicKey);
+  console.log('👀 GIF Count', account.totalGifs.toString())
 }
 
 const runMain = async () => {

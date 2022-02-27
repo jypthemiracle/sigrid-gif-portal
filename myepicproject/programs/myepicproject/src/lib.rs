@@ -12,6 +12,15 @@ pub mod myepicproject {
     base_account.total_gifs = 0;
     Ok(())
   }
+
+  // Hey, when someone calls add_gif be sure to attach the AddGif context to it
+  // as well so the user can access the base_account and whatever else is attached to AddGif.
+   pub fn add_gif(ctx: Context<AddGif>) -> Result<()> {
+    // Get a reference to the account and increment total_gifs.
+    let base_account = &mut ctx.accounts.base_account;
+    base_account.total_gifs += 1;
+    Ok(())
+  }
 }
 
 // Attach certain variables to the StartStuffOff context.
@@ -22,6 +31,13 @@ pub struct StartStuffOff<'info> {
     #[account(mut)]
     pub user: Signer<'info>,
     pub system_program: Program <'info, System>,
+}
+
+#[derive(Accounts)]
+pub struct AddGif<'info> {
+    // the context can actually change total_gifs value on BaseAccounts.
+    #[account(mut)]
+    pub base_account: Account<'info, BaseAccount>
 }
 
 // Tell Solana what we want to store on this account.
