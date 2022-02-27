@@ -47,7 +47,7 @@ const App = () => {
   useEffect(() => {
     if (walletAddress) {
       console.log('Fetching GIF list...');
-      // getGifList(programID, baseAccount, setGifList);
+      getGifList(programID, baseAccount, setGifList);
     }
   }, [walletAddress]);
 
