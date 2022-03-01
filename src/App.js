@@ -54,7 +54,7 @@ const App = () => {
   return (
     <div className="App">
       <div className={walletAddress ? "authed-container" : "container"}>
-        <div className="container">
+        <div className="{'container' + 'walletAddress && 'img-added'}">
           <div className="header-container">
             <p className="header">👩 SIGRID GIF PORTAL (Yeah)</p>
             <p className="sub-text">
@@ -62,6 +62,8 @@ const App = () => {
             </p>
             {/* Render your connect to wallet button right here */}
             {!walletAddress && renderNotConnectedContainer(setWalletAddress)}
+          </div>
+          <div>
             {walletAddress && <RenderConnectedContainer inputValue={inputValue} setInputValue={setInputValue} gifList={gifList} setGifList={setGifList} programID={programID} baseAccount={baseAccount}/>}
           </div>
           <div className="footer-container">
